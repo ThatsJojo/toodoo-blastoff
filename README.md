@@ -50,7 +50,6 @@ E, então, adicionaria essa classe aos elementos que contenham os cabeçalhos, c
 
 <HR>
 
-  
 ### QUESTÃO 3) Construa utilizando HTML e JavaScript um link que ao ser clicado, abre um alerta do navegador
 ```
 <!DOCTYPE html>
@@ -71,6 +70,9 @@ E, então, adicionaria essa classe aos elementos que contenham os cabeçalhos, c
 </body>
 </html>
 ```
+  
+<hr>
+  
 ### QUESTÃO 4) Descreva em CSS a seguinte regra: todos os itens de uma lista devem estar orientados na vertical.
 ```
 li{
@@ -78,3 +80,58 @@ li{
 }
 ```
 A regra acima aplica a alteração para todas as listas. Caso queira-se definir para uma única lista, deve-se utilizar um ID para a lista e então aplicar a regra aos itens dela (#exemplo li).
+  
+<hr>
+  
+### QUESTÃO 5) Descreva em CSS a seguinte regra: somente o último item de uma lista não deve ter uma linha na sua base.
+  
+```
+li:not(li:last-child){
+  border-width: 0px 0px 2px 0px; 
+  border-style: solid;
+  border-color: black;
+}  
+```
+  
+<hr>
+  
+### QUESTÃO 6) Um arquivo externo chamado styles.css precisa ser carregado na página HTML. Escreva o código para fazer tal carregamento.
+  
+```
+  <link rel="stylesheet" href="style.css">
+```
+O carregamento deste arquivo comumente é feito na tag HEAD. No entanto, para que haja uma melhor performance no lado do usuário, deve ser realizado ao fim do carregamento do conteúdo html.
+  
+<hr>  
+  
+### QUESTÃO 7) Um dos critérios de um determinado projeto é que todos os links devem ficar sublinhados quando o usuário passar o mouse por cima deles. Escreva o código para garantir essa regra.
+```  
+  a{
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+```
+  
+<hr> 
+  
+### QUESTÃO 8) Escreva um comando JavaScript onde o texto Hello World! seja exibido no console do navegador através de uma variável.
+```
+  <script>
+        var mensagem = 'Hello World!';
+        console.log(mensagem);
+    </script>
+```
+  
+<hr>  
+  
+### QUESTÃO 9) Usando o mesmo código da questão anterior, substitua o texto que será exibido no console do navegador para Hello Toodoo! O novo valor deve sobrescrever o valor original.
+```
+  <script>
+        var mensagem = 'Hello World!';
+        mensagem = 'Hello Toodoo!'
+        console.log(mensagem);
+    </script>
+```
