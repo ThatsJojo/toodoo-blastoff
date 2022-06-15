@@ -1,6 +1,5 @@
-::toodoo-blastoff
 # Desafio para o Programa Blastoff da empresa Toodoo. 
-
+::toodoo-blastoff
 <hr>
 
 ### QUESTÃO 1) Construa os elementos básicos para formar uma página HTML. Ela não precisa ter nenhum conteúdo
@@ -71,4 +70,10 @@ E, então, adicionaria essa classe aos elementos que contenham os cabeçalhos, c
     </script>
 </body>
 </html>
+```
+### QUESTÃO 4) Descreva em CSS a seguinte regra: todos os itens de uma lista devem estar orientados na vertical.
+```
+li{
+  display: list-item !important;
+}
 ```
