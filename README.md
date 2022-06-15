@@ -48,3 +48,27 @@ E, então, adicionaria essa classe aos elementos que contenham os cabeçalhos, c
 </body>
 ...
 ```
+
+<HR>
+
+  
+### QUESTÃO 3) Construa utilizando HTML e JavaScript um link que ao ser clicado, abre um alerta do navegador
+```
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Questão 3</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    
+    <a href="#" onclick="alert('Fique alerta!')">Clique em mim!</a>
+
+    <script>
+        function alertar(mensagem){
+            alert(mensagem);
+        }
+    </script>
+</body>
+</html>
+```
