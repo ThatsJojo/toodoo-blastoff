@@ -155,4 +155,90 @@ O carregamento deste arquivo comumente é feito na tag HEAD. No entanto, para qu
 </script>
 ```
   
+<hr> 
+  
+### QUESTÃO 11) Na função JavaScript a seguir, responda quais serão os resultados respectivos:
+
+```
+function multiplicacao (num1,num2) {
+  let resultado = num1 * num2;
+  return resultado;
+}
+multiplica(4, 7);
+multiplica(5, 6);
+multiplica(3, 3);
+```
+  Como o nome da função chamada é diferente do nome da função definida, ocorreria um erro ao invocar a função pois ela não foi definida anteriormente.
+  Corrigindo o nome da função, as saídas seriam: 28, 30 e 9.
+
+<hr>
+
+### QUESTÃO 11) Em CSS existe uma maneira de sobrescrever um estilo, quando não há outra maneira, além dessa, de se fazer isso. Qual das propriedades a seguir é utilizada para isso?
+#### (a) force
+#### (b) strong
+#### (c) !important
+#### (d) nenhuma das alternativas
+  
+A alternativa correta é a letra 'c !important';
+  
+<hr>
+  
+### QUESTÃO 12) Analisando a estrutura CSS a seguir, qual cor prevalecerá no elemento HTML?
+```
+li.list-item {
+color: red;
+}
+.list-item {
+color: blue
+}
+#list .list-item {
+color: green
+}
+ul li {
+color: black;
+}
+```
+#### (a) red
+#### (b) blue
+#### (c) green
+#### (d) black
+  
+A resposta correta é a letra 'c green', pois é empregada uma regra com o seletor de id '#list'. Dentre os pesos dos seletores, o peso de atributo é o mais alto, abaixo apenas do css definido inline.
+  
+<hr>
+  
+### QUESTÃO 13) Levando em consideração a semântica de código, escreva o HTML de uma tabela que possui as seguintes características:
+#### a) Deve possuir 3 colunas (Nome, Idade, Gênero);
+#### b) Deve possuir 2 linhas (com dados fictícios);
+#### c) E uma última linha com todas as suas colunas mescladas.
+  
+```
+  <table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Gênero</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Maria</td>
+            <td>20</td>
+            <td>Feminino</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>30</td>
+            <td>Masculino</td>
+        </tr>
+    </tbody>
+    <tfooter>
+      <tr>
+        <td colspan="3">Célula Mesclada</td>
+      </tr>
+  	</tfooter>
+</table>
+```
+  
   
