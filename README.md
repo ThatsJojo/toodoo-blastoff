@@ -241,4 +241,20 @@ A resposta correta é a letra 'c green', pois é empregada uma regra com o selet
 </table>
 ```
   
+<hr>
+  
+### QUESTÃO 14) Utilizando grid system, não sendo necessário a responsividade, elabore uma página web que siga o layout da imagem abaixo:
+  
+![alt text](https://github.com/ThatsJojo/toodoo-blastoff/blob/main/q14.png)
+  
+ Resposta nos arquivos anexos.
+  
+<hr>
+  
+### QUESTÃO 15) Crie uma página web conforme o layout abaixo que seja responsiva para ser utilizada nos diferentes navegadores e dispositivos:
+  
+![alt text](https://github.com/ThatsJojo/toodoo-blastoff/blob/main/q15.png)
+
+Resposta nos arquivos anexos.
+  
   
