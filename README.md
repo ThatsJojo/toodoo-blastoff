@@ -77,3 +77,4 @@ li{
   display: list-item !important;
 }
 ```
+A regra acima aplica a alteração para todas as listas. Caso queira-se definir para uma única lista, deve-se utilizar um ID para a lista e então aplicar a regra aos itens dela (#exemplo li).
