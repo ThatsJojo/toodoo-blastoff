@@ -135,3 +135,24 @@ O carregamento deste arquivo comumente é feito na tag HEAD. No entanto, para qu
         console.log(mensagem);
     </script>
 ```
+  
+<hr>
+  
+### QUESTÃO 10) Desenvolva via JavaScript a seguinte estrutura de código levando em consideração as seguintes regras:
+
+#### a) Uma variável deve ter o nome de sorvete de chocolate
+
+#### b) Se o seu valor for igual a chocolate, deve ser exibido no alerta do navegador a mensagem: Amo sorvete de chocolate;
+
+#### c) Se o seu valor for outro, deve exibir a mensagem: Prefiro outros sabores.  
+```
+<script>
+    var sorveteDeChocolate;
+    if(sorveteDeChocolate == 'chocolate')
+      alert('Amo sorvete de chocolate');
+    else
+      alert('Prefiro outros sabores');    
+</script>
+```
+  
+  
