@@ -1,6 +1,8 @@
 ::toodoo-blastoff
 # Desafio para o Programa Blastoff da empresa Toodoo. 
 
+<hr>
+
 ### QUESTÃO 1) Construa os elementos básicos para formar uma página HTML. Ela não precisa ter nenhum conteúdo
 
 ```
@@ -18,3 +20,31 @@
   
 ```
 É válido notar que a formatação acima não é obrigatória. É possível, por exemplo, exibir conteúdo do corpo da página colocando-o fora da tag 'body'. Mas isso não é considerado uma boa prática.
+
+<hr>
+
+### QUESTÃO 2) Em um determinado projeto os cabeçalhos devem estar previamente definidos com fonte Arial, devem estar em negrito e em caixa alta. Como você faria pra esses parâmetros serem implementados neste projeto? 
+
+Eu definiria em um arquivo .css uma classe cabecalho com as características necessárias, conforme exemplo abaixo:
+
+```
+.cabecalho{
+  font-weight: bold;
+  font-family: Arial;
+  text-transform: uppercase;
+}  
+```
+
+E, então, adicionaria essa classe aos elementos que contenham os cabeçalhos, conforme exemplo abaixo:
+```
+...
+<body>
+  <div class="cabecalho">
+    Cabeçalho 1
+  </div>
+  <div class="cabecalho">
+    Cabeçalho 2
+  </div>
+</body>
+...
+```
